@@ -18,7 +18,7 @@ a {
     --orange-red_a20: hsla(19, 100%, 55%, 0.2);
     --black-shade: hsl(210, 11%, 15%);
     --primary1: hsl(19, 100%, 55%);
-    --davys-gray: hsl(0, 0%, 33%);
+    --gray: hsl(0, 0%, 33%);
     --white_a80: hsla(0, 0%, 100%, 0.8);
     --white_a75: hsla(0, 0%, 100%, 0.75);
     --white_a10: hsla(0, 0%, 100%, 0.1);
@@ -83,3 +83,26 @@ body {
     transition: var(--transition-1);
     font-weight: 500;
 }
+
+
+.btn {
+    background-color: var(--primary1);
+    font-size: var(--fs-14);
+    font-weight: var(--fw-500);
+    text-transform: uppercase;
+    max-width: max-content;
+    letter-spacing: 2px;
+    padding: 10px 22px;
+    box-shadow: 6px 6px 0 -1px var(--gray, var(--jet));
+    transition: var(--transition-1);
+}
+
+.btn:hover {
+    background-color: var(--gray);
+    box-shadow: 5px 5px 0 -2px var(--black-shade, var(--primary1));
+}
+  
+.btn-primary{ 
+    color: var(--white); 
+}
+  
