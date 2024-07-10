@@ -1,9 +1,10 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-size: 16px;
-    
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
 a {
@@ -58,7 +59,7 @@ body {
 
 .header .logo {
     display: flex;
-    gap: .5em;
+    /* gap: .2em; */
     align-items: center;
 }
 
