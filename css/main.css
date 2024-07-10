@@ -57,6 +57,12 @@ body {
     align-items: center;
 }
 
+.header .logo-container {
+    border-bottom: 2px solid var(--primary1);
+    padding: .1em;
+    border-radius: 5px;
+}
+
 .header .logo {
     display: flex;
     align-items: center;
@@ -85,24 +91,20 @@ body {
 }
 
 
-.btn {
+.contact-button  {
     background-color: var(--primary1);
-    font-size: var(--fs-14);
-    font-weight: var(--fw-500);
     text-transform: uppercase;
     max-width: max-content;
     letter-spacing: 2px;
-    padding: 10px 22px;
-    box-shadow: 6px 6px 0 -1px var(--gray, var(--jet));
-    transition: var(--transition-1);
-}
-
-.btn:hover {
-    background-color: var(--gray);
-    box-shadow: 5px 5px 0 -2px var(--black-shade, var(--primary1));
-}
-  
-.btn-primary{ 
+    padding: .7em 1.2em;
+    box-shadow: 6px 6px 0 -1px var(--black-shade, );
     color: var(--white); 
 }
+
+.contact-button:hover {
+    background-color: var(--black-shade);
+    box-shadow: 5px 5px 0 -2px var(--primary1);
+}
+  
+
   
