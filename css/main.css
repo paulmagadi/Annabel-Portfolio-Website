@@ -11,7 +11,7 @@
     --maximum-yellow-red: hsl(41, 99%, 64%);
     --orange-red_a20: hsla(19, 100%, 55%, 0.2);
     --eerie-black: hsl(210, 11%, 15%);
-    --orange-red: hsl(19, 100%, 55%);
+    --primary1: hsl(19, 100%, 55%);
     --davys-gray: hsl(0, 0%, 33%);
     --white_a80: hsla(0, 0%, 100%, 0.8);
     --white_a75: hsla(0, 0%, 100%, 0.75);
@@ -36,8 +36,19 @@ body {
 
 .header { 
     background-color: transparent; 
+    
 }
 
 .header.active {
     background-color: var(--white); 
+}
+
+.header .container {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header nav a {
+    display: flex;
 }
