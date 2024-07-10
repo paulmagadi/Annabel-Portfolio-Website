@@ -15,7 +15,7 @@ a {
     --maximum-yellow-red_a40: hsla(41, 99%, 64%, 0.4);
     --maximum-yellow-red: hsl(41, 99%, 64%);
     --orange-red_a20: hsla(19, 100%, 55%, 0.2);
-    --eerie-black: hsl(210, 11%, 15%);
+    --black-shade: hsl(210, 11%, 15%);
     --primary1: hsl(19, 100%, 55%);
     --davys-gray: hsl(0, 0%, 33%);
     --white_a80: hsla(0, 0%, 100%, 0.8);
@@ -35,6 +35,7 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
+    font-family: 'Jost', Arial, Helvetica, sans-serif;
 }
 
 
@@ -67,4 +68,9 @@ body {
 
 .header .navbar a {
     padding: 0 .8em;
+    color: var(--black-shade);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: var(--transition-1);
+    font-weight: 500
 }
