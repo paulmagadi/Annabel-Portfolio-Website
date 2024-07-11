@@ -106,6 +106,20 @@ body {
     background-color: var(--black-shade);
     box-shadow: 5px 5px 0 -2px var(--primary1);
 }
+
+.navi-toggle-button {
+    display: none;
+}
+
+@media (max-width: 860px) {
+    .navi-toggle-button {
+        display: flex;
+    }
+
+    .header .contact-button {
+        display: none;
+    }
+}
   
 
   
