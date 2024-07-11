@@ -64,7 +64,6 @@ body {
 }
 
 .header .logo-container {
-    border-bottom: 2px solid var(--primary1);
     padding: .1em;
     border-radius: 5px;
 }
@@ -122,8 +121,6 @@ body {
 }
 
 
-
-
 .mobile-nav {
     display: none;
     background-color: var(--white);
@@ -131,11 +128,16 @@ body {
     border-bottom: 2px solid black;
 }
 
-.mobile-nav ul {
+
+
+/* .mobile-nav ul {
    list-style: none;
-   width: 100%;
-   
 }
+
+.mobile-nav ul li a {
+    width: 100%;
+    border: 1px solid red;
+ }
 
 .mobile-nav ul li {
     padding: .5em 1em;
@@ -143,7 +145,7 @@ body {
 
 .mobile-nav ul li:not(:last-of-type) {
     border-bottom: 1px solid  var(--gray);
- }
+ } */
 
 @media (max-width: 860px) {
     .nav-toggle-button {
