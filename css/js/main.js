@@ -1,8 +1,8 @@
 
 //  MOBILE NAV TOGGLE
 
-const navbar = document.querySelector("[data-navbar]");
-const navToggler = document.querySelector("[data-nav-toggler]");
+const navbar = document.querySelector("[mobile-nav]");
+const navToggler = document.querySelector("[nav-toggle-button]");
 
 const toggleNavbar = function () { navbar.classList.toggle("active"); }
 
