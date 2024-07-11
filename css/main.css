@@ -77,16 +77,6 @@ body {
 }
 
 
-
- .header .desktop-nav {
-    display: flex;
-}
-
-.header .desktop-nav a {
-    display: flex;
-    padding: 0 .8em;
-}
-
 .header .navbar a {
     color: var(--black-shade);
     text-transform: uppercase;
@@ -94,6 +84,17 @@ body {
     transition: var(--transition-1);
     font-weight: 500;
 }
+
+
+ .header .desktop-nav {
+    display: flex;
+}
+
+.header .desktop-nav a {
+    padding: 0 .8em;
+}
+
+
 
 .contact-button  {
     background-color: var(--primary1);
@@ -150,7 +151,7 @@ body {
         display: none;
     }
 
-    .header .mobile-nav {
+    .header .mobile-nav.active {
         display: block;
     }
     
