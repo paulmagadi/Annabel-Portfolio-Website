@@ -17,7 +17,8 @@ a {
     --maximum-yellow-red: hsl(41, 99%, 64%);
     --orange-red_a20: hsla(19, 100%, 55%, 0.2);
     --black-shade: hsl(210, 11%, 15%);
-    --primary1: hsl(19, 100%, 55%);
+    /* --primary1: hsl(19, 100%, 55%); */
+    --primary1: hsl(10, 98%, 51%);
     --gray: hsl(0, 0%, 33%);
     --white_a80: hsla(0, 0%, 100%, 0.8);
     --white_a75: hsla(0, 0%, 100%, 0.75);
