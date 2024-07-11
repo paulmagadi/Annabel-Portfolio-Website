@@ -128,24 +128,15 @@ body {
     border-bottom: 2px solid black;
 }
 
-
-
-/* .mobile-nav ul {
-   list-style: none;
+.mobile-nav a {
+    display: block;
+    padding: .8em 1em;
 }
 
-.mobile-nav ul li a {
-    width: 100%;
-    border: 1px solid red;
- }
-
-.mobile-nav ul li {
-    padding: .5em 1em;
- }
-
-.mobile-nav ul li:not(:last-of-type) {
+.mobile-nav a:not(:last-of-type) {
     border-bottom: 1px solid  var(--gray);
- } */
+ } 
+
 
 @media (max-width: 860px) {
     .nav-toggle-button {
