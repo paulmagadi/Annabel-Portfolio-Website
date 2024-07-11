@@ -95,7 +95,6 @@ body {
 }
 
 
-
 .contact-button  {
     background-color: var(--primary1);
     text-transform: uppercase;
@@ -111,7 +110,7 @@ body {
     box-shadow: 5px 5px 0 -2px var(--primary1);
 }
 
-.navi-toggle-button {
+.nav-toggle-button {
     display: none;
 }
 
@@ -139,7 +138,7 @@ body {
  }
 
 @media (max-width: 860px) {
-    .navi-toggle-button {
+    .nav-toggle-button {
         display: flex;
     }
 

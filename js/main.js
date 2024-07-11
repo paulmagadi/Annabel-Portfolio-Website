@@ -1,24 +1,14 @@
 
 //  MOBILE NAV TOGGLE
 
-const navbar = document.querySelector("[mobile-nav]");
-const navToggler = document.querySelector("[nav-toggle-button]");
+const navbar = document.querySelector(".mobile-nav");
+const navToggler = document.querySelector(".nav-toggle-button");
 
-const toggleNavbar = function () { navbar.classList.toggle("active"); }
-
-navToggler.addEventListener("click", toggleNavbar);
-
-
-
-
-// active header when window scrolled to 50px
-
-
-const header = document.querySelector("[data-header]");
-
-const activeHeader = function () {
-  window.scrollY > 50 ? header.classList.add("active")
-    : header.classList.remove("active");
-}
-
-window.addEventListener("scroll", activeHeader);
+navToggler.addEventListener('click', () => {
+  navbar.classList.toggle('active');
+  if (navbar.classList.contains('active')) {
+    navToggler.innerHTML = '<i class="fa-solid fa-x"></i>';
+  } else {
+    navToggler.innerHTML = '<i class="fa-solid fa-bars"></i>';
+  }
+});
