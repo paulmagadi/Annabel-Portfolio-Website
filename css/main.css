@@ -38,19 +38,26 @@ body {
     margin: 0;
     width: 100%;
     font-family: 'Jost', Arial, Helvetica, sans-serif;
+    background-color: hsla(41, 99%, 64%, 0.1);
 }
 
 .header { 
     background-color: transparent; 
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+    transition: 0.25s ease;;
 }
 
 .header.active {
     background-color: var(--white); 
+    box-shadow: 0 2px 2px hsla(0, 0%, 22%, 0.08);;
 }
 
 .header .header-container {
-    padding: 1em;
+    padding: 0 1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,6 +120,7 @@ body {
 .nav-toggle-button {
     display: none;
 }
+
 
 
 
