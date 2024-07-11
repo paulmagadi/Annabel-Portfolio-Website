@@ -76,12 +76,19 @@ body {
     font-size: 2.3rem;
 }
 
+.mobile-nav {
+    display: none;
+}
+
 .header .navbar {
     display: flex;
 }
 
-.header .navbar a {
+.header .desktop-nav a {
     padding: 0 .8em;
+}
+
+.header .navbar a {
     color: var(--black-shade);
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -117,16 +124,15 @@ body {
         display: none;
     }
 
-    .header .navbar {
+    .header .desktop-nav {
+        display: none;
+    }
+
+    .header .mobile-nav {
         display: block;
-        
     }
     
-    .header .navbar a {
-        width: 100%;
-        display: block;
-        left: 0;
-    }
+    
 }
   
 
