@@ -40,8 +40,6 @@ body {
     font-family: 'Jost', Arial, Helvetica, sans-serif;
 }
 
-
-
 .header { 
     background-color: transparent; 
     
@@ -91,7 +89,6 @@ body {
     font-weight: 500;
 }
 
-
 .contact-button  {
     background-color: var(--primary1);
     text-transform: uppercase;
@@ -118,6 +115,17 @@ body {
 
     .header .contact-button {
         display: none;
+    }
+
+    .header .navbar {
+        display: block;
+        
+    }
+    
+    .header .navbar a {
+        width: 100%;
+        display: block;
+        left: 0;
     }
 }
   
