@@ -145,6 +145,8 @@ body {
     overflow: hidden;
     min-height: 130vh;
     padding-top: 6em;
+    display: flex;
+    justify-content: space-between;
 }
 
 
