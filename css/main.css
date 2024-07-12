@@ -137,6 +137,15 @@ body {
     border-bottom: 1px solid  var(--gray);
  } 
 
+main {
+    padding-top: 6em;
+    min-height: 120vh;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
 
 @media (max-width: 860px) {
     .nav-toggle-button {
