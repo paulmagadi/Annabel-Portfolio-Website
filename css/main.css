@@ -38,7 +38,7 @@ body {
     margin: 0;
     width: 100%;
     font-family: 'Jost', Arial, Helvetica, sans-serif;
-    background-color: var(--background1);
+    min-height: 100vh;
 }
 
 .header { 
@@ -137,43 +137,34 @@ body {
     border-bottom: 1px solid  var(--gray);
  } 
 
+
 .hero-container {
-    padding-top: 6em;
-    min-height: 120vh;
-    text-align: center;
-}
-
-
-.hero {
     position: relative;
     background-color: var(--background1);
     text-align: center;
     overflow: hidden;
+    min-height: 130vh;
+    padding-top: 6em;
 }
 
-.hero::after {
+
+.hero-container::after {
 content: "";
 position: absolute;
 top: 0;
-left: 10%;
-bottom: 70%;
-right: -70%;
+left: 50%;
+bottom: 50%;
+right: -10%;
 background-color: var(--background2);
 transform: rotate(-45deg);
-border-radius: 5px;
+border-radius: 50px;
 z-index: -1;
 }
   
-  /* .hero .container {
-    display: grid;
-    gap: 70px;
-  } */
 
   
 
-.main-style-backgound {
-    position: relative;
-}
+
 
 
 
