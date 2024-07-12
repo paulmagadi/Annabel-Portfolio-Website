@@ -57,7 +57,7 @@ body {
 }
 
 .header .header-container {
-    padding: 0 1em;
+    padding: 0 2em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -141,12 +141,27 @@ body {
 .hero-container {
     position: relative;
     background-color: var(--background1);
-    text-align: center;
     overflow: hidden;
-    min-height: 130vh;
-    padding-top: 6em;
+    /* min-height: 0vh; */
+    padding: 6em 2em 0em 2em;
     display: flex;
     justify-content: space-between;
+}
+
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.hero-banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
 }
 
 
