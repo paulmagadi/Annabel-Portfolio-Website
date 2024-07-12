@@ -137,17 +137,45 @@ body {
     border-bottom: 1px solid  var(--gray);
  } 
 
-main {
+.hero-container {
     padding-top: 6em;
     min-height: 120vh;
     text-align: center;
 }
 
-main-style-backgound
 
-/* .main-container {
-    background-color: var(--background2) ;
-} */
+.hero {
+    position: relative;
+    background-color: var(--background1);
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero::after {
+content: "";
+position: absolute;
+top: 0;
+left: 10%;
+bottom: 70%;
+right: -70%;
+background-color: var(--background2);
+transform: rotate(-45deg);
+border-radius: 5px;
+z-index: -1;
+}
+  
+  /* .hero .container {
+    display: grid;
+    gap: 70px;
+  } */
+
+  
+
+.main-style-backgound {
+    position: relative;
+}
+
+
 
 footer {
     text-align: center;
