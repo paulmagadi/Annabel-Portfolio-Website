@@ -12,9 +12,9 @@ a {
 }
 
 :root {
-    --maximum-yellow-red_a10: hsla(41, 99%, 64%, 0.1);
-    --maximum-yellow-red_a40: hsla(41, 99%, 64%, 0.4);
-    --maximum-yellow-red: hsl(41, 99%, 64%);
+    --background1: hsla(41, 99%, 64%, 0.1);
+    --background2: hsla(41, 99%, 64%, 0.4);
+    --yellow: hsl(41, 99%, 64%);
     --orange-red_a20: hsla(19, 100%, 55%, 0.2);
     --black-shade: hsl(210, 11%, 15%);
     /* --primary1: hsl(19, 100%, 55%); */
@@ -22,11 +22,11 @@ a {
     --gray: hsl(0, 0%, 33%);
     --gray1: hsla(0, 0%, 100%, 0.8);
     --gray2: hsla(0, 0%, 100%, 0.75);
-    --white_a10: hsla(0, 0%, 100%, 0.1);
-    --jet_a10: hsla(0, 0%, 22%, 0.1);
+    --white1: hsla(0, 0%, 100%, 0.1);
+    --gray3: hsla(0, 0%, 22%, 0.1);
     --black: hsl(0, 0%, 0%);
     --white: hsl(0, 0%, 100%);
-    --jet: hsl(0, 0%, 22%);
+    --dark2: hsl(0, 0%, 22%);
 }
 
 html {
@@ -38,7 +38,7 @@ body {
     margin: 0;
     width: 100%;
     font-family: 'Jost', Arial, Helvetica, sans-serif;
-    background-color: hsla(41, 99%, 64%, 0.1);
+    background-color: var(--background1);
 }
 
 .header { 
@@ -142,6 +142,12 @@ main {
     min-height: 120vh;
     text-align: center;
 }
+
+main-style-backgound
+
+/* .main-container {
+    background-color: var(--background2) ;
+} */
 
 footer {
     text-align: center;
