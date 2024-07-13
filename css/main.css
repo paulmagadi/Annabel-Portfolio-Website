@@ -106,12 +106,32 @@ body {
     padding: .7em 1.2em;
     box-shadow: 6px 6px 0 -1px var(--black-shade, );
     color: var(--white); 
+    position: relative;
+    display: inline-block;
 }
 
 .primary-button:hover {
     background-color: var(--black-shade);
     box-shadow: 5px 5px 0 -2px var(--primary1);
+} 
+
+.tooltiptext {
+    visibility: hidden;
+    color: var(--black-shade);
+    text-align: center;
+    border-radius: 5px;
+    padding: .3em 1em;
+    position: absolute;
+    z-index: 50;
+    top: -70%;
+    left: 0;
 }
+
+.primary-button:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
 
 .nav-toggle-button {
     display: none;
