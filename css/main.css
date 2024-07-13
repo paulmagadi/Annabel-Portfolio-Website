@@ -233,11 +233,10 @@ color: rgb(255, 220, 174);
 .about-title {
     align-self: flex-end;
     border-bottom: 3px solid var(--primary1);
+    font-size: 2rem;
+    margin-bottom: 1em;
 }
 
-.about-section .about-statement-container h1 {
-    font-size: 2rem;
-}
 
 .about-section .about-statement-container p {
     font-size: 1.2rem;
@@ -250,8 +249,6 @@ color: rgb(255, 220, 174);
     padding: 0;
     background-color: var(--background1);
 }
-
-
 
 .skills-container {
     display: flex;
@@ -272,6 +269,14 @@ color: rgb(255, 220, 174);
     border-bottom-left-radius: 50%;
 }
 
+
+
+.skills-title {
+    align-self: flex-start;
+    border-bottom: 3px solid var(--primary1);
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
 
 
 footer {
