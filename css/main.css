@@ -47,13 +47,13 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 4;
+    z-index: 5;
     transition: 0.25s ease;;
 }
 
 .header.active {
     background-color: var(--white); 
-    box-shadow: 0 2px 2px hsla(0, 0%, 22%, 0.08);;
+    box-shadow: 0 2px 2px hsla(0, 0%, 22%, 0.08);
 }
 
 .header .header-container {
@@ -63,10 +63,6 @@ body {
     align-items: center;
 }
 
-.header .logo-container {
-    padding: .1em;
-    border-radius: 5px;
-}
 
 .header .logo {
     display: flex;
@@ -79,7 +75,7 @@ body {
     letter-spacing: 3px;
     transition: 0.25s ease;
     font-weight: 500;
-    font-size: 2.3rem;
+    font-size: 2.2rem;
 }
 
 
@@ -97,11 +93,11 @@ body {
 }
 
 .header .desktop-nav a {
-    padding: 0 .8em;
+    padding: 0 .7em;
 }
 
 
-.contact-button  {
+.primary-button  {
     background-color: var(--primary1);
     text-transform: uppercase;
     max-width: max-content;
@@ -111,7 +107,7 @@ body {
     color: var(--white); 
 }
 
-.contact-button:hover {
+.primary-button:hover {
     background-color: var(--black-shade);
     box-shadow: 5px 5px 0 -2px var(--primary1);
 }
@@ -142,8 +138,7 @@ body {
     position: relative;
     background-color: var(--background1);
     overflow: hidden;
-    /* min-height: 0vh; */
-    padding: 6em 2em 0em 2em;
+    padding: 6em 2em 0 2em;
     display: flex;
     justify-content: space-between;
 }
@@ -189,12 +184,12 @@ footer {
     text-align: center;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 900px) {
     .nav-toggle-button {
         display: flex;
     }
 
-    .header .contact-button {
+    .header .primary-button {
         display: none;
     }
 
@@ -204,6 +199,35 @@ footer {
 
     .header .mobile-nav.active {
         display: block;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        gap: 3em;
+        align-items: center;
+    }
+    
+    .hero-text-container {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    
+    }
+    
+    .hero-banner-container {
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .primary-button {
+        letter-spacing: normal;
+        padding: .5em .8em;
+        font-size: 0.8rem; 
+    }
+
+    .primary-button a {
+        font-size: 0.8rem; 
     }
     
     
