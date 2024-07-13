@@ -153,15 +153,14 @@ body {
 
 .hero-banner-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     width: 50%;
-    align-items: center;
+    align-items: baseline;
 }
 
 
 .hero-container::after {
-content: "";
+content: "Everything That Matters ";
 position: absolute;
 top: 0;
 left: 50%;
@@ -171,19 +170,46 @@ background-color: var(--background2);
 transform: rotate(-45deg);
 border-radius: 50px;
 z-index: -1;
+text-align: center;
+color: rgb(255, 220, 174);
 }
 
 .about-section {
+    position: relative;
     margin: 1em;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1em;
     background-color: var(--gray3);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-  
+ 
+.about-section .about-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 50%;
+}
 
+.about-section .about-statement-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.about-section::after {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    bottom: 15%;
+    right: 3%;
+    background-color: var(--background1);
+    transform: rotate(-60deg);
+    border-radius: 50%;
+    z-index: 1;
+    }
   
 
 
