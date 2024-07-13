@@ -14,6 +14,7 @@ a {
 :root {
     --background1: hsla(41, 99%, 64%, 0.1);
     --background2: hsla(41, 99%, 64%, 0.4);
+    --background3: rgb(182, 232, 232);
     --yellow: hsl(41, 99%, 64%);
     --orange-red_a20: hsla(19, 100%, 55%, 0.2);
     --black-shade: hsl(210, 11%, 15%);
@@ -148,7 +149,6 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 50%;
-
 }
 
 .hero-banner-container {
@@ -156,6 +156,11 @@ body {
     justify-content: center;
     width: 50%;
     align-items: baseline;
+    background-color: var(--background3);
+    padding: 0;
+    margin: 0;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
 
 
@@ -178,7 +183,7 @@ color: rgb(255, 220, 174);
     position: relative;
     margin: 1em;
     border-radius: 10px;
-    padding: 1em;
+    padding: 0;
     background-color: var(--gray3);
     display: flex;
     justify-content: space-between;
@@ -190,6 +195,11 @@ color: rgb(255, 220, 174);
     justify-content: center;
     align-items: baseline;
     width: 50%;
+    background-color: var(--background3);
+    padding: 0;
+    margin: 0;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
 
 .about-section .about-statement-container {
@@ -198,19 +208,6 @@ color: rgb(255, 220, 174);
     width: 50%;
 }
 
-.about-section::after {
-    content: "";
-    position: absolute;
-    top: 30%;
-    left: 70%;
-    bottom: 15%;
-    right: 3%;
-    background-color: var(--background1);
-    transform: rotate(-60deg);
-    border-radius: 50%;
-    z-index: 1;
-    }
-  
 
 
 
