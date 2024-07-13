@@ -172,6 +172,16 @@ transform: rotate(-45deg);
 border-radius: 50px;
 z-index: -1;
 }
+
+.about-section {
+    margin: 1em;
+    border-radius: 5px;
+    padding: 1em;
+    background-color: var(--gray3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
   
 
   
