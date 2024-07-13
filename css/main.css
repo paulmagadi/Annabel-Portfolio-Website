@@ -204,10 +204,20 @@ color: rgb(255, 220, 174);
 
 .about-section .about-statement-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     width: 50%;
+    padding: 1em;
 }
 
+.about-section .about-statement-container h1 {
+    font-size: 2rem;
+}
+
+.about-section .about-statement-container p {
+    font-size: 1.2rem;
+}
 
 
 
