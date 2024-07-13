@@ -226,9 +226,13 @@ color: rgb(255, 220, 174);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
     width: 50%;
     padding: 1em;
+}
+
+.about-title {
+    align-self: flex-end;
+    border-bottom: 3px solid var(--primary1);
 }
 
 .about-section .about-statement-container h1 {
@@ -240,6 +244,33 @@ color: rgb(255, 220, 174);
 }
 
 
+.skills-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    background-color: var(--background1);
+}
+
+
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 1em;
+}
+
+.skills-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 50%;
+    background-color: var(--background3);
+    padding: 0;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
 
 
 
@@ -292,6 +323,23 @@ footer {
     .primary-button a {
         font-size: 0.8rem; 
     }
+
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+    }
+     
+    .about-section .about-image-container {
+        align-items: baseline;
+        width: 100%;
+    }
+    
+    .about-section .about-statement-container {
+        align-items: flex-start;
+        width: 100%;
+        padding: 1em;
+    }
+    
     
     
 }
