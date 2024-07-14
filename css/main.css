@@ -429,12 +429,11 @@ footer .footer-rights {
     }
 
     .header .logo img {
-        width: 30px;
+        width: 45px;
     }
     
     .header .logo-container a h1 {
         font-size: 1.8rem;
-        padding-left: .5em;
     }
 
     .hero-text-container {
