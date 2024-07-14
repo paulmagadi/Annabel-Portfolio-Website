@@ -294,6 +294,23 @@ color: rgb(255, 220, 174);
     border-bottom-left-radius: 50%;
 }
 
+.section-break {
+    padding: 1em;
+    gap: .5em;
+    width: 100%;
+}
+
+.section-break div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+.section-break div a {
+    margin: .5em 0;
+}
+
 
 
 
