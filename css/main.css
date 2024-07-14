@@ -332,6 +332,7 @@ color: rgb(255, 220, 174);
 
 .projects-section .project-card-container {
     width: 32%;
+
 }
 
 .projects-section .project-card{
@@ -343,6 +344,8 @@ color: rgb(255, 220, 174);
 
 }
 
+
+
 .projects-section .project-card:hover {
     cursor: pointer;
     transform: scale(1.03);
@@ -351,12 +354,38 @@ color: rgb(255, 220, 174);
 
 .projects-section .project-card img {
     width: 100%;
-    position: relative;
     
 }
 
+.projects-section .project-card .project-image {
+    position: relative;
+}
 
 
+.project-layer {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 5px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgb(188, 185, 21));
+    opacity: 1;
+}
+
+
+.project-layer h4 {
+    padding: .9em;
+    background-color: white;
+    border-radius: 50%;
+}
 
 
 
