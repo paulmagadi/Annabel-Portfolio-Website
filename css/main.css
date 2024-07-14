@@ -296,15 +296,15 @@ color: rgb(255, 220, 174);
 
 .section-break {
     padding: 1em 2em;
-    gap: .5em;
+    /* gap: .5em; */
     width: 100%;
 }
 
 .section-break div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 1em 0;
+    justify-content: center;
+    gap: .5em;
 }
 
 .section-break div a {
@@ -412,6 +412,10 @@ footer .footer-rights {
         width: 100%;
     }
 
+    .section-break {
+        padding: 1em;
+    }
+
     footer {
         flex-direction: column;
     }
@@ -459,6 +463,10 @@ footer .footer-rights {
         background-color:  var(--gray);
         padding: 1em;
         color: var(--white);
+    }
+    
+    .section-break div a {
+        font-size: .7em;
     }
 
     
