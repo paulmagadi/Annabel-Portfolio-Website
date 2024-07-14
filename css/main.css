@@ -395,6 +395,76 @@ footer .footer-rights {
     
     
 }
+
+
+@media (max-width: 560px) {
+    .nav-toggle-button {
+        display: flex;
+    }
+
+
+    .hero-container {
+        flex-direction: column;
+        gap: 3em;
+        align-items: center;
+    }
+    
+    .hero-text-container {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    
+    }
+    
+    .hero-banner-container {
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .primary-button {
+        letter-spacing: normal;
+        padding: .5em .8em;
+        font-size: 0.8rem; 
+    }
+
+    .primary-button a {
+        font-size: 0.8rem; 
+    }
+
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+    }
+     
+    .about-section .about-image-container {
+        align-items: baseline;
+        width: 100%;
+    }
+    
+    .about-section .about-statement-container {
+        align-items: flex-start;
+        width: 100%;
+        padding: 1em;
+        order: -1;
+    }
+
+    .skills-section {
+        flex-direction: column;
+    }
+    
+    .skills-container {
+        width: 100%;
+        
+    }
+
+    .skills-image-container {
+        width: 100%;
+    }
+    
+    
+    
+}
   
 
   
