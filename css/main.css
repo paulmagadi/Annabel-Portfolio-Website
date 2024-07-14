@@ -401,6 +401,10 @@ footer .footer-rights {
     .header .header-container {
         padding: 0 1em;
     }
+
+    .header .logo img {
+        width: 40px;
+    }
     
     .header .logo-container a h1 {
         font-size: 1.8rem;
@@ -416,7 +420,7 @@ footer .footer-rights {
         border-top-left-radius: 0;
         border-top-right-radius: 50%;
         border-bottom-left-radius: 50%;
-        border-bottom: 50px solid red;
+        border-bottom: 50px solid var(--primary1);
     }
 
     .about-section {
