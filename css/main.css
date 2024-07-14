@@ -409,11 +409,15 @@ footer .footer-rights {
 
     .hero-text-container {
         align-items: flex-start;
+        padding: 1em;
     }
 
-    .primary-button-hero {
-        align-items: center;
+    .about-section {
+        margin: 0;
+        border-radius: 0;
     }
+
+    
 }
       
  
