@@ -404,12 +404,19 @@ footer .footer-rights {
     
     .header .logo-container a h1 {
         font-size: 1.8rem;
-        padding-left: .2em;
+        padding-left: .5em;
     }
 
     .hero-text-container {
         align-items: flex-start;
         padding: 1em;
+    }
+
+    .hero-banner-container {
+        border-top-left-radius: 0;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom: 50px solid red;
     }
 
     .about-section {
