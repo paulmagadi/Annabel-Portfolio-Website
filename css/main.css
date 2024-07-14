@@ -295,7 +295,7 @@ color: rgb(255, 220, 174);
 }
 
 .section-break {
-    padding: 1em;
+    padding: 1em 2em;
     gap: .5em;
     width: 100%;
 }
