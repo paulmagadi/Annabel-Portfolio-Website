@@ -49,6 +49,7 @@ body {
     width: 100%;
     z-index: 5;
     transition: 0.25s ease;;
+    padding-top: .5em;
 }
 
 .header.active {
@@ -85,6 +86,10 @@ body {
     letter-spacing: 3px;
     transition: var(--transition-1);
     font-weight: 500;
+}
+
+.header .navbar a:hover {
+    border-bottom: 2px solid var(--primary1);
 }
 
 
@@ -179,7 +184,6 @@ body {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
 }
-
 
 .hero-container::after {
 content: "Everything That Matters ";
@@ -372,6 +376,20 @@ footer .footer-rights {
         align-items: flex-start;
         width: 100%;
         padding: 1em;
+        order: -1;
+    }
+
+    .skills-section {
+        flex-direction: column;
+    }
+    
+    .skills-container {
+        width: 100%;
+        
+    }
+
+    .skills-image-container {
+        width: 100%;
     }
     
     
