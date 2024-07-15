@@ -297,6 +297,9 @@ color: rgb(255, 220, 174);
 .section-break {
     padding: 2em 2em;
     width: 100%;
+    background-color: var(--background3);
+    border-top: 10px solid var(--white);
+    border-bottom: 10px solid var(--white);
 }
 
 .section-break div {
@@ -312,7 +315,7 @@ color: rgb(255, 220, 174);
 
 .projects-section {
     background-color: var(--background1);
-    padding: 1em;
+    padding: 1em 1em 5em 1em;
 }
 
 .projects-title {
@@ -343,8 +346,6 @@ color: rgb(255, 220, 174);
     position: relative;
 
 }
-
-
 
 .projects-section .project-card:hover {
     cursor: pointer;
@@ -392,12 +393,6 @@ color: rgb(255, 220, 174);
 
 
 
-
-
-
-
-
-
 footer {
     background-color: var(--gray);
     color: white;
@@ -405,7 +400,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 2em;
-    margin-top: 3em;
 }
 
 footer .footer-socials i {
