@@ -344,6 +344,7 @@ color: rgb(255, 220, 174);
     padding: 1em;
     background-color: var(--white);
     position: relative;
+    border-radius: 10px;
 
 }
 
@@ -355,13 +356,14 @@ color: rgb(255, 220, 174);
 
 .projects-section .project-card img {
     width: 100%;
+    border-radius: 10px;
 }
 
 
 .project-layer h4{
     padding: .9em;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 5px;
     display: none;
 }
 
@@ -385,6 +387,7 @@ color: rgb(255, 220, 174);
     flex-direction: column;
     background: linear-gradient(rgba(0, 0, 0, 0.1),rgb(188, 185, 21));
     opacity: 1;
+    border-radius: 10px;
 }
 
 
