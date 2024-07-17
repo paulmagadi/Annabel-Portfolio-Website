@@ -206,7 +206,7 @@ color: rgb(255, 220, 174);
     position: relative;
     margin: 1em;
     border-radius: 10px;
-    padding: 0;
+    padding: 6em 0 0 0;
     background-color: var(--gray3);
     display: flex;
     justify-content: space-between;
@@ -249,7 +249,7 @@ color: rgb(255, 220, 174);
 .skills-section {
     display: flex;
     justify-content: space-between;
-    padding: 0;
+    padding: 6em 0 0 0;
     background-color: var(--background1);
 }
 
@@ -295,7 +295,7 @@ color: rgb(255, 220, 174);
 }
 
 .section-break {
-    padding: 2em 2em;
+    padding:6em 2em 6em 2em;
     width: 100%;
     background-color: var(--background3);
     border-top: 10px solid var(--white);
@@ -315,7 +315,7 @@ color: rgb(255, 220, 174);
 
 .projects-section {
     background-color: var(--background1);
-    padding: 1em 1em 5em 1em;
+    padding: 6em 1em;
 }
 
 .projects-title {
