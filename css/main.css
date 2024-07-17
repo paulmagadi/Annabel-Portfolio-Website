@@ -206,7 +206,7 @@ color: rgb(255, 220, 174);
     position: relative;
     margin: 1em;
     border-radius: 10px;
-    padding: 6em 0 0 0;
+    padding: 6em 2em 0 0;
     background-color: var(--gray3);
     display: flex;
     justify-content: space-between;
@@ -249,7 +249,7 @@ color: rgb(255, 220, 174);
 .skills-section {
     display: flex;
     justify-content: space-between;
-    padding: 6em 0 0 0;
+    padding: 6em 0 0 2em;
     background-color: var(--background1);
 }
 
@@ -315,7 +315,7 @@ color: rgb(255, 220, 174);
 
 .projects-section {
     background-color: var(--background1);
-    padding: 6em 1em 2em 1em;
+    padding: 6em 2em 2em 2em;
 }
 
 .projects-title {
@@ -397,7 +397,7 @@ color: rgb(255, 220, 174);
 }
 
 .contact-section {
-    padding: 6em 1em 5em 1em;
+    padding: 6em 2em 5em 2em;
     background-color: var(--gray3);
 }
 
