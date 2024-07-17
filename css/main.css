@@ -315,7 +315,7 @@ color: rgb(255, 220, 174);
 
 .projects-section {
     background-color: var(--background1);
-    padding: 6em 1em;
+    padding: 6em 1em 2em 1em;
 }
 
 .projects-title {
@@ -397,7 +397,7 @@ color: rgb(255, 220, 174);
 }
 
 .contact-section {
-    padding: 1em 1em 5em 1em;
+    padding: 6em 1em 5em 1em;
     background-color: var(--gray3);
 }
 
