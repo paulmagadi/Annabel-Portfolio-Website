@@ -414,10 +414,14 @@ color: rgb(255, 220, 174);
     justify-content: space-between;
     width: 100%;
     gap: 1em;
+    
 }
 
 .contact-form {
     width: 47%;
+    padding: 2em;
+    background-color: var(--background2);
+    border-radius: 10px;
 }
 
 .contact-information {
