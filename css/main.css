@@ -459,7 +459,7 @@ body {
 }
 
 
-input[type=text], textarea {
+input[type=text], input[type=email],  textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -577,6 +577,7 @@ footer .footer-rights {
 
     .skills-section {
         flex-direction: column;
+        padding: 6em 1em 0 1em;
     }
     
     .skills-container {
@@ -662,6 +663,11 @@ footer .footer-rights {
     .about-section {
         margin: 0;
         border-radius: 0;
+    }
+
+    .skills-section {
+        flex-direction: column;
+        padding: 6em 0.5em 0 .5em;
     }
 
     .skills {
