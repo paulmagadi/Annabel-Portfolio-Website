@@ -1,7 +1,3 @@
-
-
-//  MOBILE NAV TOGGLE
-
 const navbar = document.querySelector('.mobile-nav');
 const navToggler = document.querySelector('.nav-toggle-button');
 const navLinks = document.querySelectorAll('.mobile-nav a');
